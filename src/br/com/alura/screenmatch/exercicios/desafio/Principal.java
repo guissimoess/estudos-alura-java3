@@ -10,7 +10,7 @@ public class Principal {
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite o limite do cartão: ");
         double limite = sc.nextDouble();
-        CartaoDeCredito cartaoDeCredito = new CartaoDeCredito();
+        CartaoDeCredito cartaoDeCredito = new CartaoDeCredito(limite);
 
         int sair = 1;
         while (sair != 0) {
